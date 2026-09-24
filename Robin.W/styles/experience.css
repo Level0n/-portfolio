@@ -1,0 +1,122 @@
+.experience {
+  scroll-margin-top: 83.2px;
+}
+
+.experience-container {
+  max-width: 1296px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience-about {
+  font: var(--font-overline);
+  color: var(--color-light-grey-real);
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.experience-title {
+  max-width: 690px;
+  height: 132px;
+  font: var(--font-heading-2);
+  color: var(--color-text);
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.experience-numbers {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 144px;
+}
+
+.experience-number {
+  max-width: 416px;
+}
+
+.experience-number-title {
+  font: var(--font-label);
+  color: var(--color-light-grey-real);
+  margin: 0;
+}
+
+.experience-number-subtitle {
+  font: var(--font-heading-3);
+  color: var(--color-text);
+  margin: 0;
+  margin-bottom: 22px;
+}
+
+.experience-number-text {
+  max-width: 368px;
+  font: var(--font-body-2);
+  color: var(--color-light-grey-real);
+  opacity: 0.75;
+}
+
+.experience-number-subtitle-green {
+  color: var(--color-green-accent);
+}
+
+.experience-number-subtitle-blue {
+  color: var(--color-primary);
+}
+
+.experience-number-subtitle-pink {
+  color: var(--color-pink-accent);
+}
+
+@media (max-width: 1440px) {
+  .experience-container {
+    max-width: 688px;
+  }
+
+  .experience-numbers {
+    margin-bottom: 80px;
+  }
+
+  .experience-number {
+    max-width: 213px;
+  }
+
+  .experience-number-subtitle {
+    max-width: 197px;
+    margin-bottom: 24px;
+  }
+
+  .experience-number-text {
+    max-width: 197px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-container {
+    max-width: 360px;
+    padding: 0 20px;
+  }
+
+  .experience-title {
+    font: var(--font-heading-32-mobile);
+  }
+
+  .experience-numbers {
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 48px;
+  }
+
+  .experience-number {
+    max-width: 320px;
+  }
+
+  .experience-number-subtitle {
+    max-width: 320px;
+  }
+
+  .experience-number-text {
+    max-width: 320px;
+  }
+}

@@ -1,0 +1,28 @@
+:root {
+  --color-background: #F9F1F0;
+  --color-primary: #FADCD9;
+  --color-secondary: #F8AFA6;
+  --color-text: #000000;
+
+  --time-animation: .3s;
+  --function-animation: ease;
+  --animation: var(--time-animation) var(--function-animation);
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-background);
+}
+
+p {
+  margin: 0;
+  line-height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}

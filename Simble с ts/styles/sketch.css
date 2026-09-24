@@ -1,0 +1,128 @@
+.sketch {
+  padding-top: 90px;
+}
+
+.sketch-container {
+  display: flex;
+  gap: 30px;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sketch-text {
+  width: 350px;
+  margin-top: 24px;
+}
+
+.sketch-title {
+  color: var(--color-gray-dark-2);
+  line-height: 100%;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.sketch-subtitle {
+  color: var(--color-gray-light-4);
+  line-height: 170%;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.sketch-img {
+  background: url("../images/sketchs/sketch1.png");
+  width: 730px;
+  height: 410px;
+}
+
+ @media (max-width: 1110px) {
+  .sketch {
+    position: relative;
+    padding: 60px 0 0 0;
+  }
+
+  .sketch-container {
+    max-width: 690px;
+    height: 334px;
+    gap: 0;
+  }
+
+  .sketch-text {
+    width: 330px;
+    margin-top: 0;
+  }
+
+  .sketch-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .sketch-img {
+    position: absolute;
+    right: 0;
+    background: url("../images/sketchs/sketch2.png");
+    width: 369px;
+    height: 334px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sketch {
+    padding: 60px 0;
+  }
+
+  .sketch-container {
+    flex-direction: column-reverse;
+    max-width: 510px;
+    height: auto;
+    gap: 10px;
+  }
+
+  .sketch-text {
+    width: 510px;
+  }
+
+  .sketch-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .sketch-subtitle {
+    font-size: 16px;
+  }
+
+  .sketch-img {
+    position: inherit;
+    background: url("../images/sketchs/sketch3.png");
+    width: 449px;
+    height: 342px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sketch-container {
+    max-width: 290px;
+    gap: 0;
+  }
+
+  .sketch-text {
+    width: 290px;
+  }
+
+  .sketch-img {
+    position: inherit;
+    background: url("../images/sketchs/sketch4.png");
+    width: 290px;
+    height: 221px;
+  }
+
+  .sketch-button {
+    width: 144px;
+    height: 50px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,105 @@
+.skillset-container {
+  display: flex;
+  gap: 24px;
+  max-width: 1296px;
+  margin: 0 auto 120px auto;
+}
+
+.skillset-about {
+  width: 416px;
+}
+
+.skillset-about-title {
+  font: var(--font-heading-2);
+  color: var(--color-text);
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.skillset-about-subtitle {
+  max-width: 368px;
+  font: var(--font-body-1);
+  color: var(--color-light-grey-real);
+}
+
+.skillset-blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px 24px;
+}
+
+.skillset-block {
+  width: 416px;
+  transition: transform var(--animation);
+}
+
+.skillset-block:hover {
+  transform: scale(1.01);
+}
+
+.skillset-block-icon {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.skillset-block-title {
+  font: var(--font-heading-3);
+  color: var(--color-text);
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.skillset-block-subtitle {
+  max-width: 368px;
+  font: var(--font-body-2);
+  color: var(--color-light-grey-real);
+}
+
+@media (max-width: 1440px) {
+  .skillset-container {
+    flex-direction: column;
+    gap: 48px;
+    max-width: 688px;
+    margin-bottom: 80px;
+  }
+
+  .skillset-about {
+    width: 688px;
+  }
+
+  .skillset-about-subtitle {
+    max-width: 688px;
+  }
+
+  .skillset-block {
+    width: 332px;
+  }
+
+  .skillset-block-subtitle {
+    max-width: 284px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skillset-container {
+    max-width: 320px;
+    margin-bottom: 64px;
+  }
+
+  .skillset-about {
+    width: 320px;
+  }
+
+  .skillset-about-title {
+    font: var(--font-heading-32-mobile);
+    margin-bottom: 16px;
+  }
+
+  .skillset-blocks {
+    grid-template-columns: 1fr;
+  }
+
+  .skillset-block {
+    width: 320px;
+  }
+}

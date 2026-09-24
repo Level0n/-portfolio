@@ -1,0 +1,149 @@
+.main-button {
+  font-size: 20px;
+  border: 1px solid var(--color-blue-light);
+  background: var(--color-white);
+  width: 255px;
+  height: 70px;
+  color: var(--color-blue-light);
+  transition: color .3s ease, background .3s ease, border .3s ease;
+  cursor: pointer;
+}
+
+.main-button:focus {
+  background: var(--color-gray-light-2);
+  outline: none;
+}
+
+.main-button:hover {
+  color: var(--color-white);
+  background: var(--color-blue-light);
+}
+
+.main-button:active {
+  color: var(--color-white);
+  background: var(--color-blue-dark);
+  border: none;
+}
+
+.into-button {
+  font-size: 20px;
+  color: var(--color-blue-light);
+  transition: color .3s ease, background .3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.into-button:focus {
+  background: var(--color-gray-light-2);
+  outline: none;
+}
+
+.into-button:hover {
+  color: var(--color-blue-dark);
+}
+
+.into-button:active {
+  color: var(--color-blue-dark);
+  background: none;
+}
+
+.command-button {
+  font-size: 20px;
+  color: var(--color-gray-dark-1);
+  transition: color .3s ease, background .3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.command-button:focus {
+  color: var(--color-gray-dark-1);
+  background: var(--color-gray-light-2);
+  outline: none;
+}
+
+.command-button:hover {
+  color: var(--color-blue-light);
+}
+
+.command-button:active {
+  background: none;
+  color: var(--color-blue-dark);
+}
+
+.header-button {
+  stroke: var(--color-gray-dark-1);
+}
+
+.header-button:focus {
+  background: var(--color-gray-light-2);
+  stroke: var(--color-blue-light);
+  outline: none;
+}
+
+.header-button:hover {
+  stroke: var(--color-blue-light);
+}
+
+.header-button:active {
+  background: none;
+  stroke: var(--color-blue-dark);
+}
+
+.icons-button {
+  fill: var(--color-white);
+  transition: fill .3s ease, background .3s ease;
+}
+
+.icons-button:focus {
+  background: var(--color-blue-light);
+  outline: none;
+}
+
+.icons-button:hover {
+  fill: var(--color-gray-light-2);
+}
+
+.icons-button:active {
+  fill: var(--color-blue-light);
+  background: none;
+}
+
+.escape-button circle {
+  fill: var(--color-gray-light-3);
+  transition: fill .3s ease;
+}
+
+.escape-button path {
+  stroke: var(--color-gray-dark-1);
+  transition: stroke .3s ease;
+}
+
+.escape-button:focus {
+  outline: none;
+}
+
+.escape-button:focus circle {
+  fill: var(--color-gray-light-2);
+  stroke: var(--color-blue-light);
+}
+
+.escape-button:focus path {
+  stroke: var(--color-gray-dark-1);
+}
+
+.escape-button:hover circle {
+  fill: var(--color-blue-light);
+}
+
+.escape-button:hover path {
+  stroke: var(--color-white);
+}
+
+.escape-button:active circle {
+  fill: var(--color-blue-dark);
+  stroke: var(--color-blue-dark);
+}
+
+.escape-button:active path {
+  stroke: var(--color-white);
+}

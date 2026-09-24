@@ -1,0 +1,47 @@
+.desktop {
+  background-color: #F5F8FF;
+}
+
+.desktop-container {
+  display: flex;
+  align-items: center;
+  max-width: 78vw;
+  margin-left: 19vw;
+  margin-right: 3vw;
+  padding: 50px 0;
+}
+
+.desktop-text-desc {
+  font: 500 10px/normal RobotoM;
+  letter-spacing: 10%;
+  color: #3D4F9F;
+  margin-bottom: 27px;
+}
+
+.desktop-text-title {
+  font: 500 36px/normal QuicksandSB;
+  color: #3D4F9F;
+  margin-bottom: 27px;
+}
+
+.desktop-text-title-and {
+  font-weight: 400;
+  font-family: QuicksandR;
+}
+
+.desktop-text-subtitle {
+  max-width: 29vw;
+  font: 400 15px/191% RobotoM;
+  letter-spacing: 3%;
+  color: #8D96BD;
+  margin-bottom: 47px;
+}
+
+.desktop-buttons {
+  display: flex;
+}
+
+.desktop-img {
+  width: 49vw;
+  object-fit: cover;
+}

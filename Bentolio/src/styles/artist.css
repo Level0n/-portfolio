@@ -1,0 +1,6 @@
+.artist {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  max-width: 920px;
+}

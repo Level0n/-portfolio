@@ -1,0 +1,28 @@
+.artist-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 448px;
+  width: 100%;
+  padding: 30px 24px 53px 24px;
+  background-color: var(--color-secondary);
+  border-radius: 20px;
+}
+
+.artist-contact-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.artist-contact-top-text {
+  max-width: 78px;
+  font: 300 15px/100% GilroyL;
+  color: var(--color-text);
+}
+
+.artist-contact-title {
+  font: 500 55px/100% GilroyM;
+  color: var(--color-text);
+  text-decoration: none;
+}

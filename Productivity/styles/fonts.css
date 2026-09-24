@@ -1,0 +1,39 @@
+@font-face {
+  font-family: QuicksandR;
+  src: url(../fonts/Quicksand-Regular.ttf);
+}
+
+@font-face {
+  font-family: QuicksandB;
+  src: url(../fonts/Quicksand-Bold.ttf);
+}
+
+@font-face {
+  font-family: QuicksandL;
+  src: url(../fonts/Quicksand-Light.ttf);
+}
+
+@font-face {
+  font-family: QuicksandM;
+  src: url(../fonts/Quicksand-Medium.ttf);
+}
+
+@font-face {
+  font-family: QuicksandSB;
+  src: url(../fonts/Quicksand-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: RobotoM;
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: RobotoR;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSansB;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}

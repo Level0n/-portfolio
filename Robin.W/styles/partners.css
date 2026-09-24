@@ -1,0 +1,33 @@
+.partners-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  max-width: 1296px;
+  margin: 0 auto 120px auto;
+}
+
+.partners-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  border: 1px solid var(--color-level-1);
+}
+
+.partners-block-link {
+  height: 30px;
+}
+
+@media (max-width: 1440px) {
+  .partners-container {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 768px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .partners-container {
+    max-width: 360px;
+    margin-bottom: 64px;
+  }
+}

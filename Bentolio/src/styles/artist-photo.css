@@ -1,0 +1,6 @@
+.artist-photo {
+    width: 330px;
+    height: 476px;
+    border-radius: 20px;
+    object-fit: cover;
+}

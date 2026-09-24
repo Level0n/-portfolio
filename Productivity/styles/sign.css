@@ -1,0 +1,42 @@
+.sign {
+  border-bottom: #D8E3FE solid 1px;
+}
+
+.sign-container {
+  display: flex;
+  gap: 6vw;
+  max-width: 62vw;
+  margin: 119px auto;
+}
+
+.sign-text-title {
+  font: 700 18px/normal QuicksandB;
+  color: #3D4F9F;
+  margin-bottom: 18px;
+}
+
+.sign-text-subtitle {
+  max-width: 23vw;
+  font: 400 14px/191% RobotoR;
+  letter-spacing: 3%;
+  color: #8D96BD;
+}
+
+.sign-form-input {
+  width: 19vw;
+  padding: 21px 2vw;
+  border: none;
+  border-radius: 5px;
+  background-color: #EFEFF7;
+  font: 700 13px/normal QuicksandB;
+}
+
+.sign-form {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.sign-form-input::placeholder {
+  color: #7A85AD;
+}

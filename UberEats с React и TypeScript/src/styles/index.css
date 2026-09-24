@@ -1,0 +1,37 @@
+:root {
+  --color-border: #E0E0E0;
+  --color-text-black: #1D1D1D;
+  --color-text-gray: #626262;
+  --color-text-white: #FFFFFF;
+  --color-text-green: #49A144;
+  --color-line-gray: #757575;
+  --color-select-black: #3B3B3B;
+  --color-svg: #262626;
+  --color-icons: #DADADA;
+  --color-button-up: #59BD5A;
+  --color-hover: #59BD5A;
+  --color-hover-2: #327430;
+
+  --shadow: #26262629;
+
+  --time-animation: .3s;
+  --function-animation: ease;
+  --animation: var(--time-animation) var(--function-animation);
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  line-height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}

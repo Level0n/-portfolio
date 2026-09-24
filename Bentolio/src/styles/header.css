@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1392px;
+  width: 100%;
+  padding: 42px 25px;
+  margin: 24px 0;
+  background-color: var(--color-primary);
+  border-radius: 20px;
+}
+
+.header-logo {
+  font: 300 25px/100% GilroyLI;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.header-logo-bold {
+  font-family: GilroyM;
+}
+
+.header-nav {
+  display: flex;
+  gap: 48px;
+}
+
+.header-nav-link {
+  font: 300 16px/100% GilroyL;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.header-nav-link:hover {
+  text-decoration: underline;
+}

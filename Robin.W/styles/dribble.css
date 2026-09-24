@@ -1,0 +1,64 @@
+.dribbble-container {
+  max-width: 1076px;
+  margin: 0 auto 240px auto;
+}
+
+.dribbble-title {
+  font: var(--font-heading-2);
+  color: var(--color-text);
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.dribbble-subtitle {
+  max-width: 636px;
+  font: var(--font-body-1);
+  color: var(--color-light-grey-real);
+  margin-bottom: 40px;
+}
+
+.dribbble-more {
+  display: block;
+  position: relative;
+  max-width: max-content;
+  text-decoration: none;
+  color: var(--color-text);
+  margin-bottom: 116px;
+}
+
+.dribbble-more::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: var(--color-light-grey-real);
+  transition: transform var(--animation);
+}
+
+.dribbble-more:hover::after {
+  transform: scale(0.9, 2.5);
+}
+
+.dribbble-img {
+  display: block;
+}
+
+@media (max-width: 1440px) {
+  .dribbble-container {
+    max-width: 688px;
+    margin-bottom: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dribbble-container {
+    max-width: 320px;
+    margin-bottom: 110px;
+  }
+
+  .dribbble-more {
+    margin-bottom: 60px;
+  }
+}

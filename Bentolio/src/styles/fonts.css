@@ -1,0 +1,19 @@
+@font-face {
+  font-family: GilroyL;
+  src: url(../fonts/Gilroy-Light_0.ttf);
+}
+
+@font-face {
+  font-family: GilroyLI;
+  src: url(../fonts/Gilroy-LightItalic_0.ttf);
+}
+
+@font-face {
+  font-family: GilroyM;
+  src: url(../fonts/Gilroy-Medium_0.ttf);
+}
+
+@font-face {
+  font-family: GilroyB;
+  src: url(../fonts/Gilroy-Bold_0.ttf);
+}

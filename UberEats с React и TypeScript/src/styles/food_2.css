@@ -1,0 +1,140 @@
+.food_2 {
+  display: flex;
+  justify-content: center;
+}
+
+.food_2-container {
+  max-width: 956px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.food_2-title {
+  font: 400 22px/34px RobotoR;
+  color: var(--color-text-black);
+  margin-bottom: 32px;
+}
+
+.food_2-blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 49px 16px;
+}
+
+.food_2-blocks-link {
+  text-decoration: none;
+}
+
+.food_2-blocks-block {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid color-mix(in srgb, var(--color-line-gray), transparent 80%);
+}
+
+.food_2-blocks-block-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 16px 0 16px 16px;
+}
+
+.food_2-blocks-block-text-title {
+  font: 400 16px/24px RobotoR;
+  color: var(--color-text-black);
+  margin-bottom: 4px;
+}
+
+.food_2-blocks-block-text-subtitle {
+  font: 400 13px/21px RobotoR;
+  color: var(--color-text-gray);
+}
+
+.food_2-blocks-block-text-price {
+  font: 500 15px/21px RobotoM;
+  color: var(--color-text-black);
+}
+
+.food_2-blocks-block-img {
+  width: 170px;
+  height: 160px;
+}
+
+@media (max-width: 820px) {
+  .food_2-container {
+    max-width: 752px;
+    margin-bottom: 48px;
+  }
+
+  .food_2-blocks {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .food_2-blocks-block-text {
+    margin-left: 24px;
+  }
+
+  .food_2-blocks-block-img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .food_2-container {
+    max-width: 308px;
+    margin-bottom: 40px;
+  }
+
+  .food_2-title {
+    position: relative;
+    text-align: center;
+    margin-bottom: 56px;
+  }
+
+  .food_2-title::after {
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: var(--color-line-gray);
+  }
+
+  .food_2-blocks {
+    gap: 16px;
+  }
+
+  .food_2-blocks-block {
+    border: none;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-line-gray), transparent 80%);
+  }
+
+  .food_2-blocks-block:hover {
+    background: original-background;
+  }
+
+  .food_2-blocks-block-text {
+    margin: 0 0 16px 0;
+  }
+
+  .food_2-blocks-block-text-title {
+    max-width: 188px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .food_2-blocks-block-img {
+    width: 102px;
+    height: 102px;
+  }
+}
+
+@media (min-width: 601px) {
+  .food_2-blocks-block:hover {
+    background-color: color-mix(in srgb, var(--color-line-gray), transparent 96%);
+  }
+}

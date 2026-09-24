@@ -1,0 +1,46 @@
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 19px 0;
+}
+
+.header-left {
+  display: flex;
+  gap: 5vw;
+}
+
+.header-left-nav {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+
+.header-left-nav-a {
+  text-decoration: none;
+  color: #697CA6;
+  font: 500 12px/normal QuicksandSB;
+  letter-spacing: 5%;
+  transition: color var(--animation);
+  text-shadow: 0 0 5px #E6E6E6;
+}
+
+.header-left-nav-a:hover {
+  color: #5E81FE;
+}
+
+.header-right {
+  display: flex;
+  gap: 3vw;
+}
+
+.header-right-ul {
+  display: flex;
+  gap: 2.4vw;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.header-right-ul-li:hover a svg path {
+  fill: #6188FF;
+}

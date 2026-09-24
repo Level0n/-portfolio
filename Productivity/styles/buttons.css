@@ -1,0 +1,150 @@
+.header-button {
+  font: var(--font-button-1);
+  color: #3A79FF;
+  background-color: #D2E1FF;
+  border: none;
+  border-radius: 2px;
+  padding: 13px 15px;
+  cursor: pointer;
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.header-button:hover {
+  color: #FFFFFF;
+  background-color: #3A79FF;
+}
+
+.desktop-button-1 {
+  display: block;
+  font: var(--font-button-1);
+  color: #FFFFFF;
+  fill: #FFFFFF;
+  background-color: #4C85FF;
+  border: none;
+  border-radius: 2px;
+  padding: 13px 25px;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px 0px #BCC7FFBF;
+  transition: color var(--animation), background-color var(--animation), fill var(--animation);
+}
+
+.desktop-button-1:hover {
+  color: #4C85FF;
+  fill: #4C85FF;
+  background-color: transparent;
+}
+
+.desktop-button-2 {
+  display: block;
+  font: var(--font-button-2);
+  color: #ADB4D2;
+  background-color: transparent;
+  border: 1px solid #D1D1E4;
+  border-radius: 2px;
+  padding: 13px 21px;
+  cursor: pointer;
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.desktop-button-2:hover {
+  color: #FFFFFF;
+  background-color: #ADB4D2;
+}
+
+.about-button {
+  font: var(--font-button-1);
+  color: #D43F3F;
+  background-color: #FFD7D7;
+  border: none;
+  border-radius: 2px;
+  padding: 13px 15px;
+  cursor: pointer;
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.about-button:hover {
+  color: #FFFFFF;
+  background-color: #D43F3F;
+}
+
+.start-button {
+  font: var(--font-button-2);
+  color: #A6B6DA;
+  background-color: transparent;
+  border: none;
+  border-radius: 2px;
+  padding: 13px 21px;
+  cursor: pointer;
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.start-button:hover {
+  color: #FFFFFF;
+  background-color: #A6B6DA;
+}
+
+.customer-button {
+  font: var(--font-button-2);
+  color: #7382A3;
+  background-color: #E8ECF4;
+  border: none;
+  border-radius: 2px;
+  padding: 13px 15px;
+  cursor: pointer;
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.customer-button:hover {
+  color: #FFFFFF;
+  background-color: #7382A3;
+}
+
+.plan-button-1 {
+  font: var(--font-button-1);
+  color: #565F82;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 2px;
+  padding: 13px 17px;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px 0px #6480E8;
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.plan-button-1:hover {
+  color: #FFFFFF;
+  background-color: #565F82;
+}
+
+.plan-button-2 {
+  font: var(--font-button-1);
+  color: #C7D3FF;
+  background-color: transparent;
+  border: 1px solid #A0B4FF;
+  border-radius: 2px;
+  padding: 13px 9px;
+  cursor: pointer;
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.plan-button-2:hover {
+  color: #6888FF;
+  background-color: #C7D3FF;
+}
+
+.sign-button {
+  font: var(--font-button-1);
+  color: #FFFFFF;
+  background-color: #4D6CE1;
+  border: none;
+  border-radius: 5px;
+  padding: 22px 62px;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px 0px #7468FF33;
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.sign-button:hover {
+  color: #4D6CE1;
+  background-color: #FFFFFF;
+}

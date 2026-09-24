@@ -1,0 +1,49 @@
+@font-face {
+  font-family: PTSerifR;
+  src: url(../fonts/PTSerif/PTSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: PTSerifI;
+  src: url(../fonts/PTSerif/PTSerif-Italic.ttf);
+}
+
+@font-face {
+  font-family: PTSerifB;
+  src: url(../fonts/PTSerif/PTSerif-Bold.ttf);
+}
+
+@font-face {
+  font-family: PTSerifBI;
+  src: url(../fonts/PTSerif/PTSerif-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: PTSansR;
+  src: url(../fonts/PTSans/PTSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: PTSansI;
+  src: url(../fonts/PTSans/PTSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: PTSansB;
+  src: url(../fonts/PTSans/PTSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: PTSansBI;
+  src: url(../fonts/PTSans/PTSans-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: HKGroteskR;
+  src: url(../fonts/HKGrotesk/HankenGrotesk-Regular.ttf);
+}
+
+@font-face {
+  font-family: HKGroteskB;
+  src: url(../fonts/HKGrotesk/HankenGrotesk-Bold.ttf);
+}

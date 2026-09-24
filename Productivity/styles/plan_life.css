@@ -1,0 +1,41 @@
+.plan_life {
+  background: url(../images/clouds_plan_life.png), linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+  padding: 91px 25vw;
+}
+
+.plan_life-container {
+  max-width: 49vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.plan_life-desc {
+  color: #FFFFFF;
+  font: 500 10px/normal RobotoM;
+  text-transform: uppercase;
+  letter-spacing: 10%;
+  margin-bottom: 16px;
+}
+
+.plan_life-title {
+  color: #FFFFFF;
+  font: 300 48px/normal QuickSandL;
+  margin-bottom: 28px;
+}
+
+.plan_life-title-alloc {
+  font: 500 48px/normal QuickSandSB;
+}
+
+.plan_life-subtitle {
+  font: 400 15px/191% RobotoR;
+  letter-spacing: 3%;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+
+.plan-button-buttons {
+  display: flex;
+  justify-self: center;
+}

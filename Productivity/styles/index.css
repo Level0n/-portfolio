@@ -1,0 +1,27 @@
+:root {
+  --font-button-1: 700 13px/normal QuicksandB;
+  --font-button-2: 500 13px/normal QuicksandSB;
+
+  --time-animation: .3s;
+  --function-animation: ease;
+  --animation: var(--time-animation) var(--function-animation);
+}
+
+body {
+  background-color: var(--color-base);
+  font-family: QuicksandSB;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  line-height: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}

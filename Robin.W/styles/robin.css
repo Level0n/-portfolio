@@ -1,0 +1,93 @@
+.robin {
+  position: relative;
+  padding-bottom: 84px;
+  margin-bottom: 120px;
+}
+
+.robin::after {
+  content: "";
+  position: absolute;
+  width: 62.5vw;
+  height: 900px;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: var(--color-level-1);
+}
+
+.robin-block {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  max-width: 1400px;
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(../images/Robin.png) no-repeat;
+}
+
+.robin-block-text {
+  max-width: 738px;
+  color: var(--color-text);
+}
+
+.robin-block-text-title {
+  font: var(--font-heading-1);
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.robin-block-text-assign {
+  opacity: 0.5;
+}
+
+.robin-block-text-subtitle {
+  font: var(--font-body-1);
+}
+
+@media (max-width: 1440px) {
+  .robin {
+    margin-bottom: 164px;
+    padding-bottom: 0;
+  }
+
+  .robin::after {
+    display: none;
+  }
+
+  .robin-block {
+    max-width: 728px;
+    background: url(../images/Robin_tablet.png) no-repeat;
+  }
+
+  .robin-block-text {
+    max-width: 408px;
+  }
+
+  .robin-block-text-title {
+    font: var(--font-heading-56-tablet);
+  }
+}
+
+@media (max-width: 768px) {
+  .robin {
+    margin-bottom: 86px;
+  }
+
+  .robin-block {
+    align-items: end;
+    justify-content: center;
+    max-width: 360px;
+    height: 604px;
+    background: url(../images/Robin_mobile.png) no-repeat;
+  }
+
+  .robin-block-text {
+    max-width: 320px;
+  }
+
+  .robin-block-text-title {
+    font: var(--font-heading-32-mobile);
+    margin-bottom: 16px;
+  }
+}

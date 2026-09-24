@@ -1,0 +1,81 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 84vw;
+  margin: 171px auto;
+  background-image: url(../images/clouds_about.png);
+  background-size: 1440px 573px;
+  background-repeat: no-repeat;
+}
+
+.about-desc {
+  font: 500 10px/normal RobotoM;
+  letter-spacing: 10%;
+  color: #3D4F9F;
+  margin-bottom: 27px;
+}
+
+.about-title {
+  font: 500 24px/normal QuicksandSB;
+  color: #3D4F9F;
+  margin-bottom: 92px;
+}
+
+.about-blocks {
+  display: flex;
+  gap: 5vw;
+  margin-bottom: 110px;
+}
+
+.about-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 10vw;
+}
+
+.about-block-icon {
+  margin-bottom: 33px;
+}
+
+.about-block-title {
+  font: 700 14px/177% OpenSansB;
+  color: #4074F8;
+  margin-bottom: 25px;
+}
+
+.about-block-subtitle {
+  font: 600 11px/177% OpenSansB;
+  color: #ADB3CB;
+  text-align: center;
+}
+
+.about-or {
+  position: relative;
+  font: 600 11px/177% OpenSansB;
+  color: #ADB3CB;
+  margin: 0 3vw;
+}
+
+.about-or::before {
+  content: '';
+  position: absolute;
+  left: -2vw;
+  bottom: 50%;
+  display: block;
+  width: 1vw;
+  height: 1px;
+  background-color: #DAE4FE;
+}
+
+.about-or::after {
+  content: '';
+  position: absolute;
+  right: -2vw;
+  bottom: 50%;
+  display: block;
+  width: 1vw;
+  height: 1px;
+  background-color: #DAE4FE;
+}

@@ -1,0 +1,23 @@
+.instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instagram-text {
+  font-size: 24px;
+  color: var(--color-black);
+  margin-bottom: 39px;
+}
+
+.instagram-images {
+  display: flex;
+  gap: 1vw;
+  margin-bottom: 100px;
+}
+
+.instagram-image {
+  width: 15vw;
+}

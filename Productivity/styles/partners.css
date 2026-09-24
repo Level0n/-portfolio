@@ -1,0 +1,16 @@
+.partners-container {
+  display: flex;
+  justify-content: space-between;
+	align-items: center;
+  max-width: 888px;
+  margin: 58px auto;
+}
+
+.partners-partner {
+  fill: #D6DAE5;
+  transition: fill var(--animation);
+}
+
+.partners-partner:hover {
+  fill: #5982E7;
+}

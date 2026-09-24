@@ -1,0 +1,20 @@
+.artist-title {
+  max-width: 565px;
+  width: 100%;
+  padding: 221px 66px 86px 24px;
+  background-image: url(../../images/Flower.svg);
+  background-position: top 34px right 30px;
+  background-repeat: no-repeat;
+  background-color: var(--color-primary);
+  border-radius: 20px;
+}
+
+.artist-title-title {
+  font: 700 56px/100% GilroyB;
+  color: var(--color-text);
+}
+
+.artist-title-title-italic {
+  font-weight: 300;
+  font-family: GilroyLI;
+}

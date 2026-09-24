@@ -1,0 +1,19 @@
+body {
+  position: relative;
+}
+
+.button_up {
+  position: fixed;
+  right: 16px;
+  bottom: 24px;
+  width: 80px;
+  height: 80px;
+  background-color: var(--color-button-up);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button_up-hide {
+  display: none;
+}

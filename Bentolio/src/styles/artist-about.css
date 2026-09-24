@@ -1,0 +1,15 @@
+.artist-about {
+  max-width: 448px;
+  width: 100%;
+  padding: 155px 128px 46px 24px;
+  border-radius: 20px;
+  background-color: var(--color-primary);
+  background-image: url(../../images/circle.svg);
+  background-repeat: no-repeat;
+  background-position: top 32px left 24px;
+}
+
+.artist-about-text {
+  font: 300 20px/25px GilroyL;
+  color: var(--color-text);
+}

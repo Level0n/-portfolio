@@ -1,0 +1,231 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-text-black);
+}
+
+.footer-container {
+  max-width: 956px;
+  width: 100%;
+}
+
+.footer-logo {
+  padding: 56px 0 40px 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-text-white), transparent 60%);
+}
+
+.footer-logo-link {
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  padding: 32px 0 48px 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-text-white), transparent 60%);
+}
+
+.footer-links-social {
+  margin-right: 97px;
+}
+
+.footer-links-social-container {
+  position: relative;
+  width: 227px;
+  margin-bottom: 33px;
+}
+
+.footer-links-social-container::before {
+  position: absolute;
+  content: url(../../public/images/footer/world.svg);
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.footer-links-social-container::after {
+  position: absolute;
+  content: url(../../public/images/footer/arrow.svg);
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.footer-links-social-select {
+  width: 100%;
+  padding: 12px 30px 12px 48px;
+  background-color: var(--color-select-black);
+  color: var(--color-text-white);
+  font: 400 13px/normal RobotoR;
+  border: none;
+  border-radius: 2px;
+  appearance: none;
+  outline: none;
+}
+
+.footer-links-social-tag {
+  font: 400 16px/normal RobotoR;
+  color: var(--color-text-white);
+  margin-bottom: 17px;
+}
+
+.footer-links-social-tag-exp {
+  color: var(--color-text-green);
+}
+
+.footer-links-social-icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-links-social-icons-icon {
+  width: 18px;
+  height: 18px;
+  fill: var(--color-text-white);
+}
+
+.footer-links-social-icons-icon:hover {
+  fill: var(--color-hover);
+}
+
+.footer-links-social-links-1,
+.footer-links-social-links-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin-top: 7px;
+}
+
+.footer-links-social-links-1 {
+  margin-right: 128px;
+}
+
+.footer-links-social-link {
+  font: 400 13px/normal RobotoR;
+  color: var(--color-text-white);
+  text-decoration: none;
+}
+
+.footer-links-social-link:hover {
+  text-decoration: underline;
+}
+
+.footer-apps {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-text-white), transparent 60%);
+}
+
+.footer-about {
+  display: flex;
+  padding: 40px 0;
+}
+
+.footer-about-text {
+  font: 400 11px/normal RobotoR;
+  color: var(--color-text-white);
+  margin-right: 174px;
+}
+
+.footer-about-link {
+  font: 400 11px/normal RobotoR;
+  color: var(--color-text-white);
+  text-decoration: none;
+}
+
+.footer-about-link:first-of-type {
+  margin-right: 148px;
+}
+
+.footer-about-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 820px) {
+  .footer-container {
+    max-width: 752px;
+  }
+
+  .footer-links-social {
+    margin-right: 80px;
+  }
+
+  .footer-links-social-container {
+    width: 176px;
+    margin-bottom: 32px;
+  }
+
+  .footer-links-social-links-1 {
+    margin-right: 60px;
+  }
+
+  .footer-about-text {
+    margin-right: 106px;
+  }
+
+  .footer-about-link:first-of-type {
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    max-width: 304px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    padding: 32px 0 40px 0;
+  }
+
+  .footer-links-social {
+    margin-bottom: 39px;
+  }
+
+  .footer-links-social {
+    margin-right: 80px;
+  }
+
+  .footer-links-social-container {
+    width: 173px;
+    margin-bottom: 32px;
+  }
+
+  .footer-links-social-links-1,
+  .footer-links-social-links-2 {
+    margin-top: 0;
+  }
+
+  .footer-links-social-links-1 {
+    margin-right: 0;
+    margin-bottom: 23px;
+  }
+
+  .footer-links-social-links-1 {
+    margin-right: 60px;
+  }
+
+  .footer-apps {
+    gap: 24px;
+    padding: 24px 0;
+  }
+
+  .footer-about {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer-about-text {
+    margin-right: 0;
+  }
+
+  .footer-about-link:first-of-type {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,24 @@
+:root {
+  --color-white: #FFFFFF;
+  --color-white-2: #DDDDDD;
+
+  --color-gray-light-1: #EBEBEB;
+  --color-gray-light-2: #DAD9FB;
+  --color-gray-light-3: #D1D1E5;
+  --color-gray-light-4: #85859B;
+  --color-gray-light-5: #B5B5BD;
+  --color-gray-light-6: #C0C0C0;
+  --color-gray-dark-1: #4C5866;
+  --color-gray-dark-2: #666666;
+
+  --color-blue-light: #7875FE;
+  --color-blue-dark: #4946B4;
+
+  --color-border-partners: #C4C4C4;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+}
