@@ -18,7 +18,7 @@ function Best(): JSX.Element {
           items.map((card, index) => {
             return (
               <a className='best-cards-card' key={card.name} href=''>
-                <img className='best-cards-card-img' src={`../../images/best/${index + 1}.png`} alt="" />
+                <img className='best-cards-card-img' src={`/images/best/${index + 1}.png`} alt="" />
                 <h6 className='best-cards-card-title'>{card.name}</h6>
                 <div className='best-cards-card-numbers'>
                   <span className='best-cards-card-numbers-price'>${card.price}</span>

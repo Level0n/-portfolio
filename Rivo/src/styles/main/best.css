@@ -6,13 +6,13 @@
 }
 
 .best-title {
-  font: 500 64px/normal RobotoSlabM;
+  font: 500 clamp(28px, 3.7vw, 64px)/normal RobotoSlabM;
   color: var(--color-green-dark);
   margin-bottom: 37px;
 }
 
 .best-subtitle {
-  font: 500 22px/normal PoppinsM;
+  font: 500 clamp(10px, 1.3vw, 22px)/normal PoppinsM;
   color: var(--color-green-dark);
   margin-bottom: 80px;
 }
